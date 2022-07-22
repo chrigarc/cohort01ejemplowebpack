@@ -1,0 +1,75 @@
+@import "shapes.css";
+
+.page {
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 100%;
+    width: 90%;
+    min-width: 640px;
+    margin: 0 auto;
+    border: red 1px solid;
+}
+
+
+.header {
+    border: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+
+.header__logo {
+    width: 96px;
+}
+
+.header__nav{
+    margin: auto 0;
+}
+
+.header__link:hover {
+    background: black;
+    color: white;
+}
+
+.main {
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px;
+}
+
+.main__cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.card__actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__button {
+    width: 100%;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.footer {
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "cohort01webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "limpiar": "rm -rf dist",
+        "so": "uname -r",
+        "commit": "git add . && git commit -m 'sube cambio'"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^5.73.0"
+    }
+}

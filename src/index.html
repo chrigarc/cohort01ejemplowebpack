@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo módulos</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <img src="https://picsum.photos/200/300?grayscale" alt="" class="header__logo">
+            <nav class="header__nav">
+                <a class="header__link" href="https://practicum.com">HTML</a> |
+                <a class="header__link" href="https://practicum.com">CSS</a> |
+                <a class="header__link" href="https://practicum.com">JavaScript</a> |
+                <a class="header__link" href="https://practicum.com">Python</a>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="controls">
+                <form class="controls__forms">
+                    <label class="controls__label">
+                        <select name="selected"  class="controls__select">
+                            <option value="user">Usuario</option>
+                            <option value="shape">Figura</option>
+                        </select>
+                    </label>
+                    <button class="controls__submit" type="submit">Agregar</button>
+                </form>
+            </div>
+            <div class="main__cards"></div>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">Cohort 01</p>
+        </footer>
+    </div>
+
+    <template class="templates">
+        <div class="card card_type_user">
+            <h3 class="card__title"></h3>
+            <img class="card__image" src="" alt="">
+            <p class="card__content"></p>
+            <div class="card__actions"></div>
+        </div>
+        <div class="card card_type_shape">
+            <div class="shape">
+                <p class="shape__content"></p>
+            </div>
+            <button class="card__button card__button_animate">Animación</button>
+            <button class="card__button card__button_area">Area</button>
+            <button class="card__button card__button_perimeter">Perimetro</button>
+            <button class="card__button card__button_delete">Eliminar</button>
+        </div>
+    </template>
+
+    <script type="module" src="/js/index.js"></script>
+</body>
+</html>

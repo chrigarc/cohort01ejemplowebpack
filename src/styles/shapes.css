@@ -1,0 +1,45 @@
+
+.shape {
+    width: 100px;
+    height: 100px;
+}
+
+.shape_animation_rotate {
+    animation: rotate 5s;
+}
+
+@keyframes rotate {
+    100% {transform: rotate(360deg);}
+}
+
+.shape_type_square {
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+
+.shape_type_circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.shape_type_triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid;
+}
+
+.shape_color_red {
+    background: red;
+}
+
+.shape_color_blue {
+    background: blue;
+}
+
+.shape_color_green {
+    background: green;
+}
