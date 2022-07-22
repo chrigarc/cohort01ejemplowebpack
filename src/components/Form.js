@@ -61,4 +61,4 @@ const addShape = () => {
 
 let algo = '';
 
-export { init, newButton };
+export { init  };

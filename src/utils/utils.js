@@ -23,15 +23,15 @@ export function getRandomShapeData() {
 
     switch (type) {
         case 'circle':
-            shape['radio'] = Utils.getRandom10000();
+            shape['radio'] = getRandom10000();
             break;
         case 'triangle':
-            shape['base'] = Utils.getRandom10000();
-            shape['height'] = Utils.getRandom10000();
+            shape['base'] = getRandom10000();
+            shape['height'] = getRandom10000();
             break;
         case 'square':
         default:
-            shape['side'] = Utils.getRandom10000();
+            shape['side'] = getRandom10000();
             break;
     }
     return shape;
